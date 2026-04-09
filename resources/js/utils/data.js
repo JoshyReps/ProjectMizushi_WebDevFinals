@@ -1,0 +1,45 @@
+export const MOCK_BATCHES = [
+    {
+        id: 'B001',
+        medName: 'Amoxicillin',
+        formulation: '500mg',
+        batchNumber: 'AMX-P01',
+        stock: 15,
+        netContent: '20 tablets',
+        price: 15.0,
+        expiryDate: '2026-03-29',
+        imageUrl: 'https://via.placeholder.com/150/d1d5db/6b7280?text=Pills',
+        description: 'xxx-xxxx-xxx',
+    },
+    {
+        id: 'B002',
+        medName: 'Amoxicillin',
+        formulation: '500mg',
+        batchNumber: 'AMX-P02',
+        stock: 50,
+        netContent: '20 tablets',
+        price: 15.0,
+        expiryDate: '2026-08-15',
+        imageUrl: 'https://via.placeholder.com/150/d1d5db/6b7280?text=Pills',
+        description: 'xxx-xxxx-xxx',
+    },
+    {
+        id: 'B003',
+        medName: 'Paracetamol',
+        formulation: '500mg',
+        batchNumber: 'PAR-T99',
+        stock: 100,
+        netContent: '100 tablets',
+        price: 5.0,
+        expiryDate: '2025-12-01',
+        imageUrl: 'https://via.placeholder.com/150/d1d5db/6b7280?text=Para',
+        description: 'xxx-xxxx-xxx',
+    },
+];
+
+export const DISCOUNTS = {
+    None: 0,
+    'Senior Citizen': 0.2,
+    PWD: 0.2,
+    Employee: 0.1,
+};
