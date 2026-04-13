@@ -57,7 +57,7 @@ export default function AddSupplierModal({ isOpen, onClose }) {
                                             required
                                             value={data.company_name}
                                             onChange={(e) => setData('company_name', e.target.value)}
-                                            className="w-full rounded-md border border-gray-200 bg-white py-2 pr-3 pl-8 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
+                                            className="w-full rounded-md border border-gray-200 py-2 pr-3 pl-3 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
                                         />
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ export default function AddSupplierModal({ isOpen, onClose }) {
                                             required
                                             value={data.phone_number}
                                             onChange={(e) => setData('phone_number', e.target.value)}
-                                            className="w-full rounded-md border border-gray-200 bg-white py-2 pr-3 pl-8 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
+                                            className="w-full rounded-md border border-gray-200 py-2 pr-3 pl-3 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
                                         />
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@ export default function AddSupplierModal({ isOpen, onClose }) {
                                             required
                                             value={data.email}
                                             onChange={(e) => setData('email', e.target.value)}
-                                            className="w-full rounded-md border border-gray-200 bg-white py-2 pr-3 pl-8 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
+                                            className="w-full rounded-md border border-gray-200 py-2 pr-3 pl-3 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
                                         />
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@ export default function AddSupplierModal({ isOpen, onClose }) {
                                             required
                                             value={data.address}
                                             onChange={(e) => setData('address', e.target.value)}
-                                            className="w-full rounded-md border border-gray-200 bg-white py-2 pr-3 pl-8 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
+                                            className="w-full rounded-md border border-gray-200 py-2 pr-3 pl-3 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
                                         />
                                     </div>
                                 </div>

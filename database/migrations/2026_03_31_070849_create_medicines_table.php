@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('gen_name', 100)->nullable();
             $table->string('category', 50)->default('Others');
             $table->string('strength')->nullable();
+            $table->string('image_url')->nullable();            
             $table->decimal('selling_price', 10, 2)->nullable();
             $table->string('formulation', 50)->nullable();
             $table->integer('min_stock_level')->default(10);
@@ -24,7 +25,6 @@ return new class extends Migration
             $table->string('net_content', 60)->nullable();
             $table->enum('selling_unit', ['Piece', 'Bottle', 'Tube', 'Sachet'])->nullable();
             $table->text('description')->nullable();
-            $table->string('image_url')->nullable()->after('strength');
             $table->timestamps();
         });
     }

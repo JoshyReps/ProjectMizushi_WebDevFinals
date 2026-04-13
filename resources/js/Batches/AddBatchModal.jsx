@@ -116,7 +116,7 @@ const AddBatchModal = ({ isOpen, onClose, onSuccess, medicines, suppliers }) => 
                                         value={batchNumber}
                                         onChange={(e) => setBatchNumber(e.target.value)}
                                         placeholder="E.g., AMX-P01"
-                                        className="w-full rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
+                                        className="w-full rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
                                     />
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ const AddBatchModal = ({ isOpen, onClose, onSuccess, medicines, suppliers }) => 
                                         required
                                         value={selectedMedicine}
                                         onChange={(e) => setSelectedMedicine(e.target.value)}
-                                        className="w-full appearance-none rounded-md border border-gray-200 bg-white py-2.5 pr-10 pl-4 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
+                                        className="w-full appearance-none rounded-md border border-gray-200 py-2.5 pr-10 pl-4 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
                                     >
                                         <option value="" disabled>
                                             Select Medicine
@@ -152,7 +152,7 @@ const AddBatchModal = ({ isOpen, onClose, onSuccess, medicines, suppliers }) => 
                                         required
                                         value={selectedSupplier}
                                         onChange={(e) => setSelectedSupplier(e.target.value)}
-                                        className="w-full appearance-none rounded-md border border-gray-200 bg-white py-2.5 pr-10 pl-4 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
+                                        className="w-full appearance-none rounded-md border border-gray-200 py-2.5 pr-10 pl-4 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
                                     >
                                         <option value="" disabled>
                                             Select Supplier
@@ -179,7 +179,7 @@ const AddBatchModal = ({ isOpen, onClose, onSuccess, medicines, suppliers }) => 
                                         value={buyingPrice}
                                         onChange={(e) => setBuyingPrice(e.target.value)}
                                         placeholder="0.00"
-                                        className="w-full rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
+                                        className="w-full rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
                                     />
                                 </div>
                             </div>
@@ -193,7 +193,7 @@ const AddBatchModal = ({ isOpen, onClose, onSuccess, medicines, suppliers }) => 
                                         value={quantity}
                                         onChange={(e) => setQuantity(e.target.value)}
                                         placeholder="0"
-                                        className="w-full rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
+                                        className="w-full rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
                                     />
                                 </div>
                             </div>
@@ -205,7 +205,7 @@ const AddBatchModal = ({ isOpen, onClose, onSuccess, medicines, suppliers }) => 
                                         disabled
                                         value={status}
                                         onChange={(e) => setStatus(e.target.value)}
-                                        className="w-full appearance-none rounded-md border border-gray-200 bg-white py-2.5 pr-10 pl-4 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
+                                        className="w-full appearance-none rounded-md border border-gray-200 py-2.5 pr-10 pl-4 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
                                     >
                                         <option value="Healthy">Healthy</option>
                                         <option value="Low Stock">Low Stock</option>
@@ -226,7 +226,7 @@ const AddBatchModal = ({ isOpen, onClose, onSuccess, medicines, suppliers }) => 
                                         required
                                         value={expiryDate}
                                         onChange={(e) => setExpiryDate(e.target.value)}
-                                        className="w-full rounded-md border border-gray-200 bg-white px-4 py-2.5 text-gray-700 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
+                                        className="w-full rounded-md border border-gray-200 px-4 py-2.5 text-gray-700 shadow-inner outline-none focus:border-[#6D5DD3] focus:ring-2 focus:ring-[#6D5DD3]"
                                     />
                                 </div>
                             </div>

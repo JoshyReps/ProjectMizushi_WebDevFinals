@@ -80,7 +80,7 @@ export default function EditSupplierModal({ isOpen, onClose, supplier }) {
                                         required
                                         value={data.company_name}
                                         onChange={(e) => setData('company_name', e.target.value)}
-                                        className="w-full flex-1 rounded-md border border-gray-200 bg-white px-3 py-2 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
+                                        className="w-full flex-1 rounded-md border border-gray-200 px-3 py-2 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
                                     />
                                 </div>
                                 {errors.company_name && <span className="w-2/3 self-end text-xs text-red-500">{errors.company_name}</span>}
@@ -94,7 +94,7 @@ export default function EditSupplierModal({ isOpen, onClose, supplier }) {
                                         required
                                         value={data.phone_number}
                                         onChange={(e) => setData('phone_number', e.target.value)}
-                                        className="w-full flex-1 rounded-md border border-gray-200 bg-white px-3 py-2 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
+                                        className="w-full flex-1 rounded-md border border-gray-200 px-3 py-2 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
                                     />
                                 </div>
                                 {errors.phone_number && <span className="w-2/3 self-end text-xs text-red-500">{errors.phone_number}</span>}
@@ -108,7 +108,7 @@ export default function EditSupplierModal({ isOpen, onClose, supplier }) {
                                         required
                                         value={data.email}
                                         onChange={(e) => setData('email', e.target.value)}
-                                        className="w-full flex-1 rounded-md border border-gray-200 bg-white px-3 py-2 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
+                                        className="w-full flex-1 rounded-md border border-gray-200 px-3 py-2 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
                                     />
                                 </div>
                                 {errors.email && <span className="w-2/3 self-end text-xs text-red-500">{errors.email}</span>}
@@ -122,7 +122,7 @@ export default function EditSupplierModal({ isOpen, onClose, supplier }) {
                                         required
                                         value={data.address}
                                         onChange={(e) => setData('address', e.target.value)}
-                                        className="w-full flex-1 rounded-md border border-gray-200 bg-white px-3 py-2 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
+                                        className="w-full flex-1 rounded-md border border-gray-200 px-3 py-2 text-sm shadow-sm outline-none focus:border-[#7d6cb6] focus:ring-1 focus:ring-[#7d6cb6]"
                                     />
                                 </div>
                                 {errors.address && <span className="w-2/3 self-end text-xs text-red-500">{errors.address}</span>}

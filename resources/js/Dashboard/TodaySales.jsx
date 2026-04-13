@@ -22,7 +22,6 @@ export default function TodaySales({ sales }) {
         <div className="flex h-full flex-col rounded-3xl bg-white p-6 shadow-sm">
             <div className="mb-6 flex items-center justify-between">
                 <h3 className="text-xl font-bold text-gray-800">Today Sales</h3>
-                <button className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-200 text-gray-500 hover:bg-gray-50"></button>
             </div>
 
             <div className="flex-1 space-y-3 overflow-y-auto pr-2">

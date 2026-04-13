@@ -139,7 +139,7 @@ const EditBatchModal = ({ isOpen, onClose, onSuccess, batch, medicines, supplier
                                 required
                                 value={batchNumber}
                                 onChange={(e) => setBatchNumber(e.target.value)}
-                                className="w-full rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
+                                className="w-full rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
                             />
                         </div>
 
@@ -150,7 +150,7 @@ const EditBatchModal = ({ isOpen, onClose, onSuccess, batch, medicines, supplier
                                     required
                                     value={selectedMedicine}
                                     onChange={(e) => setSelectedMedicine(e.target.value)}
-                                    className="w-full appearance-none rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
+                                    className="w-full appearance-none rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
                                 >
                                     <option value="" disabled>
                                         Select Medicine
@@ -176,7 +176,7 @@ const EditBatchModal = ({ isOpen, onClose, onSuccess, batch, medicines, supplier
                                     required
                                     value={selectedSupplier}
                                     onChange={(e) => setSelectedSupplier(e.target.value)}
-                                    className="w-full appearance-none rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
+                                    className="w-full appearance-none rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
                                 >
                                     <option value="" disabled>
                                         Select Supplier
@@ -203,7 +203,7 @@ const EditBatchModal = ({ isOpen, onClose, onSuccess, batch, medicines, supplier
                                 required
                                 value={buyingPrice}
                                 onChange={(e) => setBuyingPrice(e.target.value)}
-                                className="w-full rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
+                                className="w-full rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
                             />
                         </div>
 
@@ -214,7 +214,7 @@ const EditBatchModal = ({ isOpen, onClose, onSuccess, batch, medicines, supplier
                                 required
                                 value={quantity}
                                 onChange={(e) => setQuantity(e.target.value)}
-                                className="w-full rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
+                                className="w-full rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
                             />
                         </div>
 
@@ -225,7 +225,7 @@ const EditBatchModal = ({ isOpen, onClose, onSuccess, batch, medicines, supplier
                                 required
                                 value={expiryDate}
                                 onChange={(e) => setExpiryDate(e.target.value)}
-                                className="w-full rounded-md border border-gray-200 bg-white px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
+                                className="w-full rounded-md border border-gray-200 px-4 py-2.5 shadow-inner outline-none focus:border-[#7d6cb6] focus:ring-2 focus:ring-[#7d6cb6]"
                             />
                         </div>
 
@@ -254,14 +254,6 @@ const EditBatchModal = ({ isOpen, onClose, onSuccess, batch, medicines, supplier
                         </button>
 
                         <div className="flex gap-3">
-                            <button
-                                type="button"
-                                onClick={onClose}
-                                disabled={isSubmitting}
-                                className="rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 disabled:opacity-70"
-                            >
-                                Cancel
-                            </button>
                             <button
                                 type="submit"
                                 form="editBatchForm"
