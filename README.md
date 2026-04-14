@@ -17,6 +17,8 @@ MySQL or MariaDB (for your database)
 .
   <img width="354" height="156" alt="image" src="https://github.com/user-attachments/assets/731e293a-7c43-4bde-8ffa-331585d79241" />
 .
+*
+
 5. copy the `.env.example` change the copy to `.env` and uncomment DB_CONNECTION to. DB_PASSWORD
 • Change the DB_CONNECTION to mysql
 • Change the DB_DATABASE to mizushi_database
