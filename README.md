@@ -20,9 +20,13 @@ MySQL or MariaDB (for your database)
 *
 
 5. copy the `.env.example` change the copy to `.env` and uncomment DB_CONNECTION to. DB_PASSWORD
-• Change the DB_CONNECTION to mysql
+
+• Change the DB_CONNECTION to mysq
+
 • Change the DB_DATABASE to mizushi_database
+
 • Change DB_USERNAME and DB_PASSWORD to your registered mysql account
+
 
  ================ Installing Dependencies  ================ 
 
