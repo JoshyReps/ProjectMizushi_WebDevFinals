@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Transaction;
 use App\Models\TransactionItem;
+use App\Models\Batch;
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
@@ -13,8 +14,14 @@ class TransactionSeeder extends Seeder
     public function run(): void
     {
         $daysToGenerate = 30;
-        
         $userId = 1;
+
+        $batchIds = Batch::pluck('batch_id')->toArray();
+
+        if (empty($batchIds)) {
+            $this->command->info('No batches found. Please seed batches first.');
+            return;
+        }
 
         for ($i = $daysToGenerate; $i >= 0; $i--) {
             $currentDate = Carbon::today()->subDays($i);
@@ -48,7 +55,7 @@ class TransactionSeeder extends Seeder
                     
                     TransactionItem::create([
                         'transaction_id' => $transaction->id,
-                        'batch_id' => rand(36, 55), 
+                        'batch_id' => $batchIds[array_rand($batchIds)], 
                         'quantity' => $qty,
                         'unit_price' => $unitPrice,
                         'subtotal' => $itemSubtotal,

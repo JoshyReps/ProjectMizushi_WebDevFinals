@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
             SupplierSeeder::class,
             MedicineSeeder::class,
             BatchSeeder::class,
+            TransactionSeeder::class
         ]);
     }
 }
