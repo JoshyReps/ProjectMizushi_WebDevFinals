@@ -22,7 +22,7 @@ class UserSeeder extends Seeder
                 'last_name'     => 'Doe',
                 'email'         => 'jane.doe@pharmacy.com',
                 'password_hash' => $defaultPassword,
-                'role'          => 'Pharmacist',
+                'role'          => 'ADMIN',
                 'status'        => 1,
                 'joined_date'   => Carbon::now()->subMonths(12)->format('Y-m-d'),
                 'last_login'    => Carbon::now()->subDays(1)->format('Y-m-d'),
